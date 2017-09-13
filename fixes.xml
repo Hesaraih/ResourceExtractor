@@ -1150,7 +1150,7 @@ IN THE SOFTWARE.
   </items>
   <elements>
     <update>
-      <o id="-1" en="Physical" ja="物的" />
+      <o id="-1" en="Physical" ja="物理" />
       <o id="0" en="Fire" ja="火" />
       <o id="1" en="Ice" ja="氷" />
       <o id="2" en="Wind" ja="風" />
@@ -1164,19 +1164,19 @@ IN THE SOFTWARE.
   </elements>
   <bags>
     <update>
-      <o id="0" en="Inventory" access="Everywhere" command="inventory" equippable="true" />
-      <o id="1" en="Safe" access="Mog House" command="bank" equippable="false" />
-      <o id="2" en="Storage" access="Mog House" command="storage" equippable="false" />
-      <o id="3" en="Temporary" access="Situational" command="temporary" equippable="false" />
-      <o id="4" en="Locker" access="Mog House" command="locker" equippable="false" />
-      <o id="5" en="Satchel" access="Everywhere" command="satchel" equippable="false" />
-      <o id="6" en="Sack" access="Everywhere" command="sack" equippable="false" />
-      <o id="7" en="Case" access="Everywhere" command="case" equippable="false" />
-      <o id="8" en="Wardrobe" access="Everywhere" command="wardrobe" equippable="true" />
-      <o id="9" en="Safe 2" access="Mog House" command="bank2" equippable="false" />
-      <o id="10" en="Wardrobe 2" access="Everywhere" command="wardrobe2" equippable="true" />
-      <o id="11" en="Wardrobe 3" access="Everywhere" command="wardrobe3" equippable="true" />
-      <o id="12" en="Wardrobe 4" access="Everywhere" command="wardrobe4" equippable="true" />
+      <o id="0" en="Inventory" ja="マイバッグ" access="Everywhere" command="inventory" equippable="true" />
+      <o id="1" en="Safe" ja="モグ金庫" access="Mog House" command="bank" equippable="false" />
+      <o id="2" en="Storage" ja="収納家具" access="Mog House" command="storage" equippable="false" />
+      <o id="3" en="Temporary" ja="テンポラリ" access="Situational" command="temporary" equippable="false" />
+      <o id="4" en="Locker" ja="ロッカー" access="Mog House" command="locker" equippable="false" />
+      <o id="5" en="Satchel" ja="サッチェル" access="Everywhere" command="satchel" equippable="false" />
+      <o id="6" en="Sack" ja="サック" access="Everywhere" command="sack" equippable="false" />
+      <o id="7" en="Case" ja="ケース" access="Everywhere" command="case" equippable="false" />
+      <o id="8" en="Wardrobe" ja="ワードローブ" access="Everywhere" command="wardrobe" equippable="true" />
+      <o id="9" en="Safe 2" ja="モグ金庫2" access="Mog House" command="bank2" equippable="false" />
+      <o id="10" en="Wardrobe 2" ja="ワードローブ2" access="Everywhere" command="wardrobe2" equippable="true" />
+      <o id="11" en="Wardrobe 3" ja="ワードローブ3" access="Everywhere" command="wardrobe3" equippable="true" />
+      <o id="12" en="Wardrobe 4" ja="ワードローブ4" access="Everywhere" command="wardrobe4" equippable="true" />
     </update>
   </bags>
   <chat>
@@ -1194,14 +1194,14 @@ IN THE SOFTWARE.
   </chat>
   <check_ratings>
     <update>
-      <o id="1" en="Too weak" />
-      <o id="2" en="Extremely easy prey" />
-      <o id="3" en="Easy prey" />
-      <o id="4" en="Decent challenge" />
-      <o id="5" en="Even match" />
-      <o id="6" en="Tough" />
-      <o id="7" en="Very tough" />
-      <o id="8" en="Incredibly tough" />
+      <o id="1" en="Too weak" ja="練習相手にもならない" />
+      <o id="2" en="Extremely easy prey" ja="とても楽な相手だ" />
+      <o id="3" en="Easy prey" ja="楽な相手だ" />
+      <o id="4" en="Decent challenge" ja="丁度よい相手だ" />
+      <o id="5" en="Even match" ja="同じくらいの強さだ" />
+      <o id="6" en="Tough" ja="強そうだ" />
+      <o id="7" en="Very tough" ja="とても強そうだ" />
+      <o id="8" en="Incredibly tough" ja="とてもとても強そうだ" />
     </update>
   </check_ratings>
   <days>
@@ -1288,14 +1288,14 @@ IN THE SOFTWARE.
   </emotes>
   <encumbrance>
     <update>
-      <o id="121" en="Main and Sub" />
-      <o id="122" en="Head and Neck" />
-      <o id="123" en="Body" />
-      <o id="124" en="Hands" />
-      <o id="125" en="Legs and Feet" />
-      <o id="126" en="Back and Waist" />
-      <o id="127" en="Range and Ammo" />
-      <o id="128" en="Rings and Earrings" />
+      <o id="121" en="Main and Sub" ja="メイン・サブ" />
+      <o id="122" en="Head and Neck" ja="頭・首" />
+      <o id="123" en="Body" ja="胴" />
+      <o id="124" en="Hands" ja="両手" />
+      <o id="125" en="Legs and Feet" ja="両脚・両足" />
+      <o id="126" en="Back and Waist" ja="背・腰" />
+      <o id="127" en="Range and Ammo" ja="レンジ・矢弾" />
+      <o id="128" en="Rings and Earrings" ja="耳・指" />
     </update>
   </encumbrance>
   <jobs>
@@ -1354,23 +1354,23 @@ IN THE SOFTWARE.
   </moon_phases>
   <servers>
     <update>
-      <o id="2" en="Undine" />
-      <o id="4" en="Bahamut" />
-      <o id="5" en="Shiva" />
-      <o id="8" en="Phoenix" />
-      <o id="9" en="Carbuncle" />
-      <o id="10" en="Fenrir" />
-      <o id="11" en="Sylph" />
-      <o id="12" en="Valefor" />
-      <o id="14" en="Leviathan" />
-      <o id="15" en="Odin" />
-      <o id="19" en="Quetzalcoatl" />
-      <o id="20" en="Siren" />
-      <o id="23" en="Ragnarok" />
-      <o id="26" en="Cerberus" />
-      <o id="28" en="Bismarck" />
-      <o id="30" en="Lakshmi" />
-      <o id="31" en="Asura" />
+      <o id="2" en="Undine" ja="ウンディーネ" />
+      <o id="4" en="Bahamut" ja="バハムート" />
+      <o id="5" en="Shiva" ja="シヴァ" />
+      <o id="8" en="Phoenix" ja="フェニックス" />
+      <o id="9" en="Carbuncle" ja="カーバンクル" />
+      <o id="10" en="Fenrir" ja="フェンリル" />
+      <o id="11" en="Sylph" ja="シルフ" />
+      <o id="12" en="Valefor" ja="ヴァルファーレ" />
+      <o id="14" en="Leviathan" ja="リヴァイアサン" />
+      <o id="15" en="Odin" ja="オーディン" />
+      <o id="19" en="Quetzalcoatl" ja="ケツァルコアトル" />
+      <o id="20" en="Siren" ja="セイレーン" />
+      <o id="23" en="Ragnarok" ja="ラグナロク" />
+      <o id="26" en="Cerberus" ja="ケルベロス" />
+      <o id="28" en="Bismarck" ja="ビスマルク" />
+      <o id="30" en="Lakshmi" ja="ラクシュミ" />
+      <o id="31" en="Asura" ja="アスラ" />
     </update>
   </servers>
   <skills>
@@ -1472,17 +1472,17 @@ IN THE SOFTWARE.
   </statuses>
   <synth_ranks>
     <update>
-      <o id="0" en="Amateur" />
-      <o id="1" en="Recruit" />
-      <o id="2" en="Initiate" />
-      <o id="3" en="Novice" />
-      <o id="4" en="Apprentice" />
-      <o id="5" en="Journeyman" />
-      <o id="6" en="Craftsman" />
-      <o id="7" en="Artisan" />
-      <o id="8" en="Adept" />
-      <o id="9" en="Veteran" />
-      <o id="10" en="Expert" />
+      <o id="0" en="Amateur" ja="素人" />
+      <o id="1" en="Recruit" ja="見習" />
+      <o id="2" en="Initiate" ja="徒弟" />
+      <o id="3" en="Novice" ja="下級職人" />
+      <o id="4" en="Apprentice" ja="名取" />
+      <o id="5" en="Journeyman" ja="目録" />
+      <o id="6" en="Craftsman" ja="印可" />
+      <o id="7" en="Artisan" ja="高弟" />
+      <o id="8" en="Adept" ja="皆伝" />
+      <o id="9" en="Veteran" ja="師範" />
+      <o id="10" en="Expert" ja="高級職人" />
     </update>
   </synth_ranks>
   <weather>
@@ -1511,22 +1511,22 @@ IN THE SOFTWARE.
   </weather>
   <slots>
     <update>
-      <o id="0" en="Main" />
-      <o id="1" en="Sub" />
-      <o id="2" en="Range" />
-      <o id="3" en="Ammo" />
-      <o id="4" en="Head" />
-      <o id="5" en="Body" />
-      <o id="6" en="Hands" />
-      <o id="7" en="Legs" />
-      <o id="8" en="Feet" />
-      <o id="9" en="Neck" />
-      <o id="10" en="Waist" />
-      <o id="11" en="Left Ear" />
-      <o id="12" en="Right Ear" />
-      <o id="13" en="Left Ring" />
-      <o id="14" en="Right Ring" />
-      <o id="15" en="Back" />
+      <o id="0" en="Main" ja="メイン" />
+      <o id="1" en="Sub" ja="サブ" />
+      <o id="2" en="Range" ja="レンジ" />
+      <o id="3" en="Ammo" ja="矢弾" />
+      <o id="4" en="Head" ja="頭" />
+      <o id="5" en="Body" ja="胴" />
+      <o id="6" en="Hands" ja="両手" />
+      <o id="7" en="Legs" ja="両脚" />
+      <o id="8" en="Feet" ja="両足" />
+      <o id="9" en="Neck" ja="首" />
+      <o id="10" en="Waist" ja="腰" />
+      <o id="11" en="Left Ear" ja="左耳" />
+      <o id="12" en="Right Ear" ja="右耳" />
+      <o id="13" en="Left Ring" ja="左手の指" />
+      <o id="14" en="Right Ring" ja="右手の指" />
+      <o id="15" en="Back" ja="背" />
     </update>
   </slots>
   <races>
@@ -1534,15 +1534,15 @@ IN THE SOFTWARE.
       <o id="0" en="Precomposed NPC" ja="合成済みのNPC" gender="None" />
       <o id="1" en="Hume ♂" ja="ヒューム♂" gender="♂" />
       <o id="2" en="Hume ♀" ja="ヒューム♀" gender="♀" />
-      <o id="3" en="Elvaan ♂" ja="エㇽバン♂" gender="♂" />
-      <o id="4" en="Elvaan ♀" ja="エㇽバン♀" gender="♀" />
+      <o id="3" en="Elvaan ♂" ja="エルヴァーン♂" gender="♂" />
+      <o id="4" en="Elvaan ♀" ja="エルヴァーン♀" gender="♀" />
       <o id="5" en="Tarutaru ♂" ja="タルタル♂" gender="♂" />
       <o id="6" en="Tarutaru ♀" ja="タルタル♀" gender="♀" />
       <o id="7" en="Mithra" ja="ミスラ" gender="♀" />
-      <o id="8" en="Galka" ja="ガㇽカ" gender="♂" />
+      <o id="8" en="Galka" ja="ガルカ" gender="♂" />
       <o id="29" en="Mithra Child" ja="ミスラの子" gender="♀" />
-      <o id="30" en="Elvaan Hume Child ♀" ja="エㇽ・ヒュームの子♀" gender="♀" />
-      <o id="31" en="Elvaan Hume Child ♂" ja="エㇽ・ヒュームの子♂" gender="♂" />
+      <o id="30" en="Elvaan Hume Child ♀" ja="エルヴァーン・ヒュームの子♀" gender="♀" />
+      <o id="31" en="Elvaan Hume Child ♂" ja="エルヴァーン・ヒュームの子♂" gender="♂" />
       <o id="32" en="Chocobo Rounsey" ja="チョコボ黄" gender="None" />
       <o id="33" en="Chocobo Destrier" ja="チョコボ黒" gender="None" />
       <o id="34" en="Chocobo Palfrey" ja="チョコボ赤" gender="None" />
